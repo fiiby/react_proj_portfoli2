@@ -3,11 +3,18 @@
 html {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
+  scroll-behavior: smooth;
+
+  /*fixing the width from start so not change*/
+  box-sizing: border-box;
 }
 
-/*fixing the width from start so not change*/
-html {box-sizing: border-box;}
-*, *::before, *::after {box-sizing: inherit;}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
 
 * {

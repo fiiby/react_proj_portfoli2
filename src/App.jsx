@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
- <div className='container'>
+ <div id="up" className='container'>
   <Header />
   <Hero />
    <div className='divider'/>
@@ -22,10 +22,12 @@ function App() {
    <div className='divider'/>
   <Footer />
   
-  <button className='scroll2top'>
-    <ArrowCircleUpIcon size={32} />
-
-  </button>
+  <a href='#up'>
+    <button className='scroll2top'>
+        <ArrowCircleUpIcon size={32} />
+    </button>
+  </a>
+  
  </div>
     </>
   )
